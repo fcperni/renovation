@@ -1,0 +1,22 @@
+import streamlit as st
+from datetime import datetime
+import pytz
+
+# Definir zona horaria CET
+CET = pytz.timezone('CET')
+
+# Obtener la fecha y hora actual en la zona horaria CET
+now = datetime.now(CET)
+
+# Fecha límite (28 de julio)
+limit_date = datetime(now.year, 7, 28, tzinfo=CET)
+
+st.title("⚽ ¿Puede Chuchi renovar ya el carnet del Pucela? ⚽")
+
+# Lógica para mostrar el mensaje adecuado
+if now < limit_date:
+    st.write("⌛ Todavía no es 28 de Julio")
+elif now == limit_date:
+    st.write("💜 Ya puede, es 28 de Julio")
+else:
+    st.write("😿 Ya es tarde, se pasó el 28 de Julio")
