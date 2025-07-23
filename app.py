@@ -15,7 +15,8 @@ st.title("⚽ ¿Puede Chuchi renovar ya el carnet del Pucela? ⚽")
 
 # Lógica para mostrar el mensaje adecuado
 if now < limit_date:
-    st.write("⌛ Todavía no es 28 de Julio")
+    st.write("⌛ Todavía no es 28 de Julio.")
+    st.write("Pero tranquilo, tampoco han renovado Dani y Sergio, hay tiempo de comer")
 elif now == limit_date:
     st.write("💜 Ya puede, es 28 de Julio")
 else:
