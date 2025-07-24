@@ -17,7 +17,7 @@ st.title("⚽ ¿Puede Chuchi renovar ya el carnet del Pucela? ⚽")
 if now < limit_date:
     st.write("⌛ Todavía no es 28 de Julio.")
     st.write("Aunque puede haber sorpresas, si Mas, Soler o Romeo dan la sorpresa y ganan una etapa.")
-    st.write("Pero tranquilo, tampoco han renovado Dani y Sergio, hay tiempo de comer.")
+    st.write("Pero tranquilo, tampoco ha renovado Sergio, hay tiempo de comer. Dani ha hecho los deberes.")
 elif now == limit_date:
     st.write("💜 Ya puede, es 28 de Julio")
 else:
