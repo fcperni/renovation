@@ -19,6 +19,8 @@ if now < limit_date:
     st.write("⌛ Todavía no es 28 de Julio.")
     st.write("Aunque puede haber sorpresas, si Mas, Soler o Romeo dan la sorpresa y ganan una etapa.")
     st.write("Pero tranquilo, tampoco ha renovado Sergio, hay tiempo de comer. Dani ha hecho los deberes.")
+    st.write(now)
+    st.write(limit_date)
 elif now < limit_date2:
     st.write("💜 Ya puede, es 28 de Julio")
 else:
