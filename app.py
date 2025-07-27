@@ -6,7 +6,7 @@ import pytz
 CET = pytz.timezone('CET')
 
 # Obtener la fecha y hora actual en la zona horaria CET
-now = datetime.now(CET)
+now = datetime.now()
 
 # Fecha límite (28 de julio)
 limit_date = datetime(now.year, 7, 28, tzinfo=CET)
