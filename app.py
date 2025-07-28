@@ -23,4 +23,5 @@ if now < limit_date:
 elif now < limit_date2:
     st.write("💜 Ya puede, es 28 de Julio")
 else:
-    st.write("Seguro que ya renovó")
+    st.write("💜 Seguro que ya renovó 💜")
+    st.write("Pezzolano, dimisión")
